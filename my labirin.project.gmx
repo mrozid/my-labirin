@@ -5,8 +5,16 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sprite_bola</sprite>
+    <sprite>sprites\sprite_kayu</sprite>
+    <sprite>sprites\sprite_hole</sprite>
+    <sprite>sprites\sprite3</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\background_rumput</background>
+    <background>background\background_texture</background>
+  </backgrounds>
   <paths name="paths"/>
   <help>
     <rtf>help.rtf</rtf>
