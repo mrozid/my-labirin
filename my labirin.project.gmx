@@ -26,6 +26,9 @@
     <background>background\background_texture</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font1</font>
+  </fonts>
   <objects name="objects">
     <object>objects\bola</object>
     <object>objects\kayu</object>
@@ -47,6 +50,7 @@
     <object>objects\teks_help</object>
     <object>objects\teks_about</object>
     <object>objects\back_easy</object>
+    <object>objects\object_timer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_home</room>
