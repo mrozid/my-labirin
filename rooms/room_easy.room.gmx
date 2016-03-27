@@ -12,7 +12,7 @@
   <showcolour>-1</showcolour>
   <code>if keyboard_check_pressed(vk_backspace)
    {
-   show_message("kembali");
+  show_message("dssdf0");
    }</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
@@ -58,6 +58,7 @@
     <instance objName="easy_2" x="480" y="352" name="inst_12D9D253" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easy_3" x="768" y="352" name="inst_2F112EDB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="back_easy" x="928" y="32" name="inst_1634B94D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="back_gampang" x="224" y="160" name="inst_D7FD9220" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

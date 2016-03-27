@@ -51,6 +51,28 @@
             <string>x+=device_get_tilt_y()*spd;
 
 y+=device_get_tilt_x()*spd;
+
+if place_meeting(x-40, y-40, lubang){
+    global.time=false;
+    if( global.detik &lt;10 ) &amp;&amp; (global.menit &lt;10){
+        show_message("Selamat waktu anda : "+string(global.jam) + ":0" + string(global.menit) +":0" + string(global.detik));
+    }else if( global.detik &gt;=10 ) &amp;&amp; (global.menit &gt;=10){
+        show_message("Selamat waktu anda : "+string(global.jam) + ":" + string(global.menit) +":" + string(global.detik));
+    }else if( global.detik &lt;10 ) &amp;&amp; (global.menit &gt;=10){
+        show_message("Selamat waktu anda : "+string(global.jam) + ":" + string(global.menit) +":0" + string(global.detik));
+    }else if( global.detik &gt;=10 ) &amp;&amp; (global.menit &lt;10){
+        show_message("Selamat waktu anda : "+string(global.jam) + ":0" + string(global.menit) +":" + string(global.detik));
+    }
+    
+    if(room_get_name(room)=="gampang_kesatu") || (room_get_name(room)=="gampangKedua") || (room_get_name(room)=="gampangketiga"){
+        room_goto(room_easy);
+    }else if (room_get_name(room)=="medium_satu") || (room_get_name(room)=="medium_dua") || (room_get_name(room)=="medium_tiga"){
+        room_goto(room_medium);
+    }else if (room_get_name(room)=="hard_dua") || (room_get_name(room)=="hard_tiga") || (room_get_name(room)=="hard_satu"){
+        room_goto(room_hard);
+    }
+
+}
 </string>
           </argument>
         </arguments>

@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound0</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite_bola</sprite>
     <sprite>sprites\sprite_kayu</sprite>
@@ -47,10 +49,24 @@
     <object>objects\hard_1</object>
     <object>objects\hard_2</object>
     <object>objects\hard_3</object>
+    <object>objects\sound_obj</object>
     <object>objects\teks_help</object>
     <object>objects\teks_about</object>
     <object>objects\back_easy</object>
     <object>objects\object_timer</object>
+    <objects name="back event">
+      <object>objects\back_easy_satu</object>
+      <object>objects\back_easy_dua</object>
+      <object>objects\back_easy_tiga</object>
+      <object>objects\back_medium_satu</object>
+      <object>objects\back_medium_dua</object>
+      <object>objects\back_medium_tiga</object>
+      <object>objects\back_hard_satu</object>
+      <object>objects\back_hard_dua</object>
+      <object>objects\back_hard_tiga</object>
+      <object>objects\back_home</object>
+      <object>objects\back_gampang</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_home</room>
