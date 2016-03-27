@@ -55,15 +55,21 @@
     <room>rooms\room_about</room>
     <room>rooms\room_hard</room>
     <room>rooms\room_medium</room>
-    <room>rooms\easy_satu</room>
-    <room>rooms\easy_dua</room>
-    <room>rooms\easy_tiga</room>
-    <room>rooms\medium_satu</room>
-    <room>rooms\medium_dua</room>
-    <room>rooms\medium_tiga</room>
-    <room>rooms\hard_satu</room>
-    <room>rooms\hard_dua</room>
-    <room>rooms\hard_tiga</room>
+    <rooms name="easy">
+      <room>rooms\gampang_kesatu</room>
+      <room>rooms\gampangKedua</room>
+      <room>rooms\gampangketiga</room>
+    </rooms>
+    <rooms name="medium">
+      <room>rooms\medium_satu</room>
+      <room>rooms\medium_dua</room>
+      <room>rooms\medium_tiga</room>
+    </rooms>
+    <rooms name="hard">
+      <room>rooms\hard_satu</room>
+      <room>rooms\hard_tiga</room>
+      <room>rooms\hard_dua</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
