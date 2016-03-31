@@ -54,7 +54,6 @@
     <instance objName="bola" x="64" y="32" name="inst_85553F4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lubang" x="960" y="672" name="inst_0DE098BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="kayu" x="0" y="0" name="inst_4E54B344" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="kayu" x="96" y="0" name="inst_F4D09ECC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="kayu" x="128" y="0" name="inst_6A74E0AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="kayu" x="192" y="0" name="inst_45878D94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="kayu" x="256" y="0" name="inst_B545F10B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -341,6 +340,8 @@
     <instance objName="object_timer" x="224" y="64" name="inst_EBA690A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="kayu" x="192" y="544" name="inst_EDF5545C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="back_easy_satu" x="288" y="64" name="inst_60A9197C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="kayu" x="32" y="0" name="inst_5FBCE8EC" locked="0" code="" scaleX="2" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="kayu" x="96" y="0" name="inst_B15663F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

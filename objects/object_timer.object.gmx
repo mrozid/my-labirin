@@ -88,16 +88,16 @@ if(global.menit == 60){
           <argument>
             <kind>1</kind>
             <string>draw_set_font(font1);
-draw_set_colour(c_lime);
-
+draw_set_colour(c_white);
+var ypos = (room_width/2)-10;
 if( global.detik &lt;10 ) &amp;&amp; (global.menit &lt;10){
-    //draw_text(128,122,string(global.jam) + ":0" + string(global.menit) +":0" + string(global.detik));
+    draw_text(ypos,30,"0" + string(global.menit) +":0" + string(global.detik));
 }else if( global.detik &gt;=10 ) &amp;&amp; (global.menit &gt;=10){
-   // draw_text(128,122,string(global.jam) + ":" + string(global.menit) +":" + string(global.detik));
+    draw_text(ypos,30,+ string(global.menit) +":" + string(global.detik));
 }else if( global.detik &lt;10 ) &amp;&amp; (global.menit &gt;=10){
-    //draw_text(128,122,string(global.jam) + ":" + string(global.menit) +":0" + string(global.detik));
+    draw_text(ypos,30, string(global.menit) +":0" + string(global.detik));
 }else if( global.detik &gt;=10 ) &amp;&amp; (global.menit &lt;10){
-    //draw_text(128,122,string(global.jam) + ":0" + string(global.menit) +":" + string(global.detik));
+    draw_text(ypos,30,"0" + string(global.menit) +":" + string(global.detik));
 }
 </string>
           </argument>
